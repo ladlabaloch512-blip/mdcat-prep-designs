@@ -1,0 +1,44 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link href="../fonts/fonts.css" rel="stylesheet"><style>*{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}html,body{width:390px;height:844px;overflow:hidden}.app,.web{height:100%}.sb{height:34px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 22px 3px;font-size:13px;font-weight:600}.sbic{display:flex;gap:6px;align-items:center}
+.app{display:flex;flex-direction:column;background:#F2EFE7;font-family:Sora;color:#1E2420;position:relative}
+.web{display:flex;flex-direction:column;background:#F2EFE7;font-family:Sora;color:#1E2420}
+.bd{flex:1;padding:18px 18px 96px;display:flex;flex-direction:column;gap:12px;overflow:hidden}
+.tile{border-radius:26px;padding:17px}
+.tt{font-size:21px;font-weight:800}.sub{font-size:12.5px;color:#6E7568}
+.bar{height:9px;border-radius:99px;background:rgba(30,36,32,.1);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:99px;background:#0E9F5A}
+.fnav{position:absolute;left:50%;transform:translateX(-50%);bottom:18px;background:#1E2420;border-radius:99px;display:flex;padding:8px;gap:2px;box-shadow:0 16px 34px rgba(30,36,32,.3);z-index:5}
+.fn{display:flex;align-items:center;gap:7px;color:#C9CFC2;padding:9px 13px;border-radius:99px;font-size:11.5px;font-weight:600}
+.fn.on{background:#0E9F5A;color:#fff}
+.fld{display:flex;align-items:center;gap:11px;background:#FBFAF6;border:1.5px solid #E3DECF;border-radius:16px;padding:13px 14px;color:#3C443A;font-size:14px}
+.lbl{font-size:12.5px;font-weight:700;margin:0 0 6px 2px}
+.btn{background:#1E2420;color:#fff;font-weight:700;text-align:center;border-radius:99px;padding:15px;font-size:15px}
+.btnG{background:#0E9F5A;color:#fff;font-weight:700;text-align:center;border-radius:99px;padding:15px;font-size:15px}
+.chip{padding:8px 15px;border-radius:99px;font-size:12.5px;font-weight:700;background:#E9E4D6;color:#5A6053}
+.chip.on{background:#1E2420;color:#fff}
+.bnr{border:2px dashed #B9B29C;border-radius:22px;color:#98917A;font-size:11px;letter-spacing:1.6px;font-weight:700;display:flex;align-items:center;justify-content:center;background:#FBFAF6}
+</style></head><body><div class="app"><div class="sb" style="color:#12211a;background:transparent"><span>9:41</span><span class="sbic"><svg width="17" height="11" viewBox="0 0 17 11" fill="currentColor"><rect x="0" y="7" width="3" height="4" rx="1"/><rect x="4.5" y="5" width="3" height="6" rx="1"/><rect x="9" y="2.5" width="3" height="8.5" rx="1"/><rect x="13.5" y="0" width="3" height="11" rx="1" opacity=".35"/></svg><svg width="25" height="12" viewBox="0 0 25 12" fill="none" stroke="currentColor"><rect x=".7" y=".7" width="19" height="10.6" rx="3"/><rect x="2.5" y="2.5" width="12" height="7" rx="1.6" fill="currentColor" stroke="none"/><path d="M22.5 4v4" stroke-linecap="round"/></svg></span></div>
+<div class="bd" style="padding-bottom:26px">
+  <div style="padding:2px 4px 0"><div class="tt">Quiz Result</div><div class="sub" style="margin-top:2px">Biology · Cell Biology</div></div>
+  <div class="tile" style="background:#1E2420;color:#fff;padding:20px">
+    <span style="font-size:11.5px;color:#B9C2B4;font-weight:700;letter-spacing:1px">YOUR SCORE</span>
+    <div style="display:flex;align-items:baseline;gap:8px;margin-top:4px"><span style="font-size:56px;font-weight:800;line-height:1">156</span><span style="font-size:17px;color:#B9C2B4;font-weight:600">/ 200</span></div>
+    <div style="font-size:13px;color:#2ECC7A;font-weight:700;margin-top:5px">Excellent Performance</div></div>
+  <div style="display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:11px">
+    <div class="tile" style="background:#0E9F5A;color:#fff;padding:15px"><div style="font-size:25px;font-weight:800">156</div><div style="font-size:11.5px;opacity:.85;font-weight:600">Correct</div></div>
+    <div class="tile" style="background:#FBD9D3;padding:15px"><div style="font-size:25px;font-weight:800;color:#A93226">32</div><div style="font-size:11.5px;color:#A93226;font-weight:600">Incorrect</div></div>
+    <div class="tile" style="background:#F7EBC8;padding:15px"><div style="font-size:25px;font-weight:800;color:#8A6D1F">12</div><div style="font-size:11.5px;color:#8A6D1F;font-weight:600">Skipped</div></div>
+  </div>
+  <div class="tile" style="background:#fff;padding:17px"><b style="font-size:13.5px">Subject Performance</b>
+    <div style="display:flex;flex-direction:column;gap:10px;margin-top:12px">
+    <div style="display:flex;align-items:center;gap:10px"><span style="width:104px;font-size:12px;font-weight:600">Biology</span><div class="bar" style="flex:1"><i style="width:82%"></i></div><b style="font-size:12px">82%</b></div><div style="display:flex;align-items:center;gap:10px"><span style="width:104px;font-size:12px;font-weight:600">Chemistry</span><div class="bar" style="flex:1"><i style="width:74%"></i></div><b style="font-size:12px">74%</b></div><div style="display:flex;align-items:center;gap:10px"><span style="width:104px;font-size:12px;font-weight:600">Physics</span><div class="bar" style="flex:1"><i style="width:68%"></i></div><b style="font-size:12px">68%</b></div><div style="display:flex;align-items:center;gap:10px"><span style="width:104px;font-size:12px;font-weight:600">English & Logic</span><div class="bar" style="flex:1"><i style="width:88%"></i></div><b style="font-size:12px">88%</b></div>
+    </div></div>
+  <div class="bnr" style="height:52px">SPONSORED BANNER</div>
+  <div style="display:flex;gap:10px;margin-top:auto"><div class="btnG" style="flex:1">Review Mistakes</div><div class="btn" style="flex:1;background:#fff;color:#1E2420;border:1.5px solid #E3DECF">Retake Quiz</div></div>
+</div></div><style>
+.mdcat-demo-nav{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:9999;background:rgba(18,53,36,.96);border-radius:14px;padding:9px 12px;display:flex;flex-wrap:wrap;gap:4px 10px;justify-content:center;max-width:94vw;box-shadow:0 6px 24px rgba(0,0,0,.35);font-family:Arial,Helvetica,sans-serif}
+.mdcat-demo-nav a{color:#fff;text-decoration:none;font-size:12.5px;font-weight:bold;padding:3px 2px;white-space:nowrap}
+.mdcat-demo-nav a:hover{text-decoration:underline}
+.mdcat-demo-nav a.cur{color:#FFD94D}
+.mdcat-demo-nav .lbl{color:#9fd3a8;font-size:11px;font-weight:bold;letter-spacing:1px;padding:3px 2px}
+body{padding-bottom:64px}
+</style><div class="mdcat-demo-nav"><span class="lbl">DEMO</span><a href="../index.html">All Designs</a><a href="d02-app-splash.html">Splash</a><a href="d02-app-login.html">Login</a><a href="d02-app-dashboard.html">Dashboard</a><a href="d02-app-chapters.html">Chapters</a><a href="d02-app-quiz.html">Quiz</a><a class="cur" href="d02-app-result.html">Result</a><a href="d02-app-saved.html">Saved</a><a href="d02-app-notifications.html">Alerts</a><a href="d02-app-profile.html">Profile</a><a href="d02-web-chapters.html">Website Version</a></div></body></html>
