@@ -1,0 +1,64 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link href="../fonts/fonts.css" rel="stylesheet"><style>*{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}html,body{width:1440px;height:900px;overflow:hidden}.app,.web{height:100%}.sb{height:34px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 22px 3px;font-size:13px;font-weight:600}.sbic{display:flex;gap:6px;align-items:center}
+.app{display:flex;flex-direction:column;background:#F3F8F4;font-family:Barlow;color:#0C2B1E}
+.web{display:flex;flex-direction:column;background:#F3F8F4;font-family:Barlow;color:#0C2B1E}
+.bd{flex:1;padding:18px 20px 14px;display:flex;flex-direction:column;gap:13px;overflow:hidden}
+.tt{font-size:22px;font-weight:800;font-style:italic;letter-spacing:.2px}.sub{font-size:13px;color:#5B7264}
+.card{background:#fff;padding:16px;box-shadow:0 5px 16px rgba(12,43,30,.07);clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)}
+.btn{background:#0E9F5A;color:#fff;font-weight:700;text-align:center;padding:14px;font-size:15.5px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)}
+.btn2{border:2px solid #0C2B1E;color:#0C2B1E;font-weight:700;text-align:center;padding:12px;font-size:14.5px;background:#fff}
+.nav{display:flex;background:#0C2B1E;padding:11px 8px 17px;clip-path:polygon(0 12px,100% 0,100% 100%,0 100%)}
+.navi{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10.5px;color:#7FA08D;font-weight:600}
+.navi.on{color:#3CE68B}
+.pbar{height:10px;background:#E0EBE2;transform:skewX(-18deg);overflow:hidden}
+.pbar i{display:block;height:100%;background:#0E9F5A}
+.fld{display:flex;align-items:center;gap:11px;background:#fff;border:1.5px solid #D8E4DA;padding:13px 14px;color:#33473B;font-size:14.5px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)}
+.lbl{font-size:13px;font-weight:700;margin:0 0 6px 2px}
+.chip{padding:8px 17px;font-size:13px;font-weight:700;background:#E2EDE3;color:#41584A;transform:skewX(-12deg)}
+.chip span{display:block;transform:skewX(12deg)}
+.chip.on{background:#0E9F5A;color:#fff}
+.opt{display:flex;align-items:center;gap:0;background:#fff;box-shadow:0 4px 13px rgba(12,43,30,.06);font-size:15px;font-weight:600;overflow:hidden;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)}
+.opt .lt{width:46px;align-self:stretch;background:#EAF3EB;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;color:#0B6E4F;flex:none}
+.opt.sel{background:#0E9F5A;color:#fff}
+.opt.sel .lt{background:#0B6E4F;color:#fff}
+.bnr{border:1.5px dashed #9DBBA6;color:#72917C;font-size:11px;letter-spacing:1.6px;font-weight:700;display:flex;align-items:center;justify-content:center;background:#FBFEFB;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)}
+.mrow{display:flex;align-items:center;gap:13px;background:#fff;padding:14px 15px;box-shadow:0 4px 13px rgba(12,43,30,.06);font-size:15px;font-weight:600;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)}
+</style></head><body><div class="web"><div style="height:44px;background:#EDF1EE;display:flex;align-items:center;gap:14px;padding:0 18px"><span style="display:flex;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#FF5F57;display:block"></i><i style="width:11px;height:11px;border-radius:50%;background:#FEBC2E;display:block"></i><i style="width:11px;height:11px;border-radius:50%;background:#28C840;display:block"></i></span><span style="flex:1;max-width:520px;margin:0 auto;background:#fff;color:#7A877E;font-size:12.5px;padding:6px 16px;border-radius:99px;text-align:center;font-family:Inter">mdcatprep.pk/dashboard</span><span style="width:60px"></span></div><div style="height:66px;background:#fff;display:flex;align-items:center;padding:0 34px;gap:22px;box-shadow:0 2px 12px rgba(12,43,30,.06)"><span style="display:flex;align-items:center;gap:9px;font-weight:800;font-size:17px;font-style:italic"><span style="width:38px;height:38px;background:#0E9F5A;color:#fff;display:flex;align-items:center;justify-content:center;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span>MDCAT Prep</span><span style="display:flex;gap:3px;margin-left:12px"><span style="padding:9px 16px;font-size:14px;font-weight:700;transform:skewX(-12deg);background:#0E9F5A;color:#fff"><span style="display:block;transform:skewX(12deg)">Home</span></span><span style="padding:9px 16px;font-size:14px;font-weight:700;transform:skewX(-12deg);color:#41584A"><span style="display:block;transform:skewX(12deg)">Chapters</span></span><span style="padding:9px 16px;font-size:14px;font-weight:700;transform:skewX(-12deg);color:#41584A"><span style="display:block;transform:skewX(12deg)">Saved MCQs</span></span><span style="padding:9px 16px;font-size:14px;font-weight:700;transform:skewX(-12deg);color:#41584A"><span style="display:block;transform:skewX(12deg)">Profile</span></span></span><span style="flex:1"></span><span style="color:#0B6E4F"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M18 9.2a6 6 0 1 0-12 0c0 5.4-2.3 6.8-2.3 6.8h16.6S18 14.6 18 9.2"/><path d="M10.2 20a2 2 0 0 0 3.6 0"/></svg></span><span style="width:38px;height:38px;background:#0C2B1E;color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)">AK</span></div><div style="flex:1;padding:28px 34px">
+  <div style="background:linear-gradient(120deg,#0E9F5A,#0B6E4F);color:#fff;padding:24px 26px;clip-path:polygon(0 0,100% 0,100% calc(100% - 18px),0 100%);display:flex;align-items:center;gap:22px">
+    <div style="flex:1"><div style="font-size:13px;opacity:.88">Good morning,</div>
+    <div style="font-size:25px;font-weight:800;font-style:italic">Hello, Ayesha Khan</div>
+    <div style="font-size:13px;opacity:.88;margin-top:3px">Ready for today's practice session?</div></div>
+    <div style="text-align:right"><div style="font-size:12px;color:#BFE8CF;font-weight:700;letter-spacing:.6px">DAILY PROGRESS</div>
+    <div style="display:flex;align-items:baseline;gap:8px;justify-content:flex-end"><span style="font-size:34px;font-weight:800;font-style:italic">24/50</span><span style="font-size:14px">MCQs today · 48%</span></div>
+    <div class="pbar" style="width:300px;background:rgba(255,255,255,.25);margin-top:9px"><i style="width:48%;background:#fff"></i></div></div></div>
+  <div style="display:flex;gap:22px;margin-top:20px">
+   <div style="flex:1;display:flex;flex-direction:column;gap:15px">
+    <div style="display:flex;justify-content:space-between;align-items:center"><b style="font-size:16.5px">Subjects</b><span class="sub">PMDC Syllabus</span></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px"><div style="background:#E0F3E6;padding:18px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)">
+      <span style="color:#0B6E4F"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 18.5C5.5 10.5 11.5 4.8 19.5 4.5c-.3 8-5.5 14-14 14z"/><path d="M5.5 18.5c2.4-5.4 6-9.3 10.5-11.5"/></svg></span>
+      <div style="font-weight:800;font-size:16px;margin-top:9px">Biology</div><div style="font-size:12px;color:#5B7264">Cell Biology</div>
+      <div style="display:flex;align-items:center;gap:8px;margin-top:10px"><div class="pbar" style="flex:1"><i style="width:48%;background:#0B6E4F"></i></div><b style="font-size:12.5px">48%</b></div></div><div style="background:#E1ECFB;padding:18px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)">
+      <span style="color:#2563EB"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3h4"/><path d="M10.2 3v5L5.4 17.4A2.3 2.3 0 0 0 7.5 21h9a2.3 2.3 0 0 0 2.1-3.6L13.8 8V3"/><path d="M8 14.5h8"/></svg></span>
+      <div style="font-weight:800;font-size:16px;margin-top:9px">Chemistry</div><div style="font-size:12px;color:#5B7264">Organic Basics</div>
+      <div style="display:flex;align-items:center;gap:8px;margin-top:10px"><div class="pbar" style="flex:1"><i style="width:32%;background:#2563EB"></i></div><b style="font-size:12.5px">32%</b></div></div><div style="background:#FDEBD2;padding:18px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)">
+      <span style="color:#B45309"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1.7" fill="currentColor" stroke="none"/><ellipse cx="12" cy="12" rx="9" ry="3.8"/><ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(120 12 12)"/></svg></span>
+      <div style="font-weight:800;font-size:16px;margin-top:9px">Physics</div><div style="font-size:12px;color:#5B7264">Motion and Force</div>
+      <div style="display:flex;align-items:center;gap:8px;margin-top:10px"><div class="pbar" style="flex:1"><i style="width:21%;background:#B45309"></i></div><b style="font-size:12.5px">21%</b></div></div><div style="background:#EFE7FB;padding:18px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)">
+      <span style="color:#6D28D9"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.2C10 4.7 7.4 4.2 4 4.2v13.6c3.4 0 6 .5 8 2 2-1.5 4.6-2 8-2V4.2c-3.4 0-6 .5-8 2z"/><path d="M12 6.2v13.6"/></svg></span>
+      <div style="font-weight:800;font-size:16px;margin-top:9px">English & Logic</div><div style="font-size:12px;color:#5B7264">Grammar Rules</div>
+      <div style="display:flex;align-items:center;gap:8px;margin-top:10px"><div class="pbar" style="flex:1"><i style="width:64%;background:#6D28D9"></i></div><b style="font-size:12.5px">64%</b></div></div></div>
+    <div class="bnr" style="height:60px">SPONSORED BANNER</div>
+   </div>
+   <div style="width:300px;display:flex;flex-direction:column;gap:15px">
+    <div style="background:#0C2B1E;color:#fff;padding:20px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)"><b style="font-size:16.5px;font-style:italic">Full Mock Test</b>
+      <div style="font-size:12.5px;color:#9DBBA6;margin-top:5px;line-height:1.55">200 MCQs in exam conditions, timed like the real MDCAT.</div>
+      <div style="background:#0E9F5A;color:#fff;font-weight:700;text-align:center;padding:12px;margin-top:14px;font-size:14px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)">Start Full Mock Test</div></div>
+    <div class="card"><b style="font-size:14.5px">Weak Topics</b><div style="font-size:12.5px;color:#5B7264;margin-top:7px;line-height:1.9">Enzymes · 12% complete<br>Physics Numericals · needs practice</div></div>
+    <div class="card"><b style="font-size:14.5px">Continue</b><div style="font-size:12.5px;color:#5B7264;margin-top:6px">Cell Biology · 54% complete</div><div class="pbar" style="margin-top:9px"><i style="width:54%"></i></div></div>
+   </div></div></div></div><style>
+.mdcat-demo-nav{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:9999;background:rgba(18,53,36,.96);border-radius:14px;padding:9px 12px;display:flex;flex-wrap:wrap;gap:4px 10px;justify-content:center;max-width:94vw;box-shadow:0 6px 24px rgba(0,0,0,.35);font-family:Arial,Helvetica,sans-serif}
+.mdcat-demo-nav a{color:#fff;text-decoration:none;font-size:12.5px;font-weight:bold;padding:3px 2px;white-space:nowrap}
+.mdcat-demo-nav a:hover{text-decoration:underline}
+.mdcat-demo-nav a.cur{color:#FFD94D}
+.mdcat-demo-nav .lbl{color:#9fd3a8;font-size:11px;font-weight:bold;letter-spacing:1px;padding:3px 2px}
+body{padding-bottom:64px}
+</style><div class="mdcat-demo-nav"><span class="lbl">DEMO</span><a href="../index.html">All Designs</a><a class="cur" href="d05-web-dashboard.html">Home</a><a href="d05-web-login.html">Login</a><a href="d05-web-chapters.html">Chapters</a><a href="d05-web-quiz.html">Quiz</a><a href="d05-web-result.html">Result</a><a href="d05-web-saved.html">Saved</a><a href="d05-web-notifications.html">Alerts</a><a href="d05-web-profile.html">Profile</a><a href="d05-app-dashboard.html">App Version</a></div></body></html>
